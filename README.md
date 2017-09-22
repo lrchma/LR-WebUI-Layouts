@@ -5,10 +5,10 @@ This repository contains a collection of LogRhythm WebUI Dashboard & Analyse lay
 All have been Created using LogRythm 7.2.x and default to 4 column width layout.  It's suggested to use the WebUI keyboard shortcuts for (L)ogs, (C)ase and (I)nspector to retain maximum screen estate while using the LogRhythm WebUI.
 
 ## Colour Use for Widgets
-Grey = Taxonomy
-Blue = Entity & Log Source
-Yellow = Hosts
-Green = Users
+* Grey = Taxonomy
+* Blue = Entity & Log Source
+* Yellow = Hosts
+* Green = Users
 
 ## Dashboards
 
