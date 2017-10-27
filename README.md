@@ -1,6 +1,8 @@
 # WebUI-Layouts
 
-This repository contains a collection of LogRhythm WebUI Dashboard & Analyse layouts that focus on a clean dataset view to highlight areas of interest.  Not all metadata fields will be popualted by all log sources, and so these layouts focus on high value metadata fields that are common to all log sources.  The use of standard Widgets (Bar Charts with the focus on the value field) and colour schema provide an intuative view upon large sets of metadata.  In addition, time based layouts and top/bottom views provide a quick way to detect outliers.
+This repository contains a collection of LogRhythm WebUI Dashboard & Analyse layouts that focus on providing a clear and simple  view to highlight areas of interest.  Not all metadata fields will be popualted by all log sources, and so these layouts focus on high value metadata fields that are common to all log sources.  When you find something of interest, it's recommended to either switch to a specific application centric view, or make use of the megagrid.
+
+The use of standard Widgets (Bar Charts with the focus on the value field) and colour schema provide an intuative view upon large sets of metadata.  In addition, time based layouts and top/bottom views provide a quick way to detect outliers.
 
 All have been Created using LogRythm 7.2.x and default to 4 column width layout.  It's suggested to use the WebUI keyboard shortcuts for (L)ogs, (C)ase and (I)nspector to retain maximum screen estate while using the LogRhythm WebUI.
 
@@ -12,7 +14,7 @@ All have been Created using LogRythm 7.2.x and default to 4 column width layout.
 
 ## Dashboards
 
-###_1. Default (Time Range)
+### 1. Default (Time Range)
 Provides time based comparison between metadata fields showing the last 1 hour vs the last 1 day:
 * Top Classification 
 * Top Common Event
@@ -24,7 +26,7 @@ Provides time based comparison between metadata fields showing the last 1 hour v
 
 ![Time Range Dashboard](https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20Default%20Time%20Range.png?raw=true)
 
-###_1. Default (Top & Bottom)
+### 2. Default (Top & Bottom)
 Provides Top 10 metadata fields view.
 * Top Classification
 * Top Common Event
@@ -36,7 +38,9 @@ Provides Top 10 metadata fields view.
 * Top User (Impacted)
 * Top Classification Trend
 
-###_1. AIE Event
+![Top Events Dashboard](https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20Default%20Top%20Events.png?raw=true)
+
+### 3. AIE Event
 Provides Top 10 metadata fields view across AIE Events only.
 * Top Common Event Trend
 * Top Classification
@@ -46,4 +50,4 @@ Provides Top 10 metadata fields view across AIE Events only.
 * Bottom Common Event
 * Bottom Log Source Entity
 
-
+![AIE Events Dashboard](https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20AIE%20Events.png?raw=true)
