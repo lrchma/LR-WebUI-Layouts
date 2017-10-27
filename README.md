@@ -22,6 +22,8 @@ Provides time based comparison between metadata fields showing the last 1 hour v
 * Top User (Origin)
 * Top User (Impacted)
 
+![Time Range Dashboard](https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20Default%20Time%20Range.png?raw=true)
+
 ###_1. Default (Top & Bottom)
 Provides Top 10 metadata fields view.
 * Top Classification
