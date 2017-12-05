@@ -73,7 +73,7 @@ The easiest and quickest way to convert a Dashboard to Analyse or vice versa is 
 * "pageName":"Dashboard" to "pageName":"Analyse"
 3. Save and create a view in your WebUI from new Dashboard or Analyse layout
 
-Note, not all widgets are available sa Analyse layouts, in fact only TopX can be used.  If you've used anything else, such as CloudAI, GeoMap, etc... then the above won't work.  The workaround to this is create a copy of your Dashboard minus these widgets, then export and convert that into an Analyse layout.
+Note, not all widgets are available as Analyse layouts, in fact only TopX can be used.  If you've used anything else, such as CloudAI, GeoMap, etc... then the above won't work.  The workaround to this is create a copy of your Dashboard minus these widgets, then export and convert that into an Analyse layout.
 
 # Converting Dashboards or Analyse layouts from Top to Bottom or vice versa
 
