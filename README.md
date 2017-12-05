@@ -53,9 +53,9 @@ Provides Top 10 metadata fields view across AIE Events only.
 * Bottom Log Source Entity
 
 # WebUI Naming Convention
-The WebUI has a display limit of 22 characters at this time, no filtering, and no folder structure.  Given that, without a naming convention it can become difficult to find the Dashboard or Analyse layout you're after quickly; however, there are many ways around that, and one such way isto define and use a naming convention:
+The WebUI has a display limit of 22 characters at this time, no filtering, and no folder structure.  Given that, without a naming convention it can become difficult to find the Dashboard or Analyse layout you're after quickly; however, there are many ways around that, and one such way is to define and use a naming convention:
 
-Source:Dashboard (D|A-T|B)
+*Source:Dashboard (D|A-T|B)*
 
 Source = Brief Log Source Name, e.g., Apache
 Dashboard = What the Dashboard or Analyse is for, e.g., Access Logs
@@ -64,13 +64,13 @@ T|B = Top or Bottom (Optional, if you don't use Top or Bottom views then omit)
 
 The end result for Apache Access logs would be as follows:
 
-Apache:Access (D-T)
+*Apache:Access (D-T)*
 
 # Converting Dashboards to Analyse Layouts and vice versa
 The easiest and quickest way to convert a Dashboard to Analyse or vice versa is as follows:
 1. Export your Dashboard or Analyse layout
 2. In your favourite editor, find and replace the following:
-..*"pageName":"Dashboard" to "pageName":"Analyse"
+* "pageName":"Dashboard" to "pageName":"Analyse"
 3. Save and create a view in your WebUI from new Dashboard or Analyse layout
 
 Note, not all widgets are available sa Analyse layouts, in fact only TopX can be used.  If you've used anything else, such as CloudAI, GeoMap, etc... then the above won't work.  The workaround to this is create a copy of your Dashboard minus these widgets, then export and convert that into an Analyse layout.
@@ -81,7 +81,7 @@ There's currently no way to switch all the widgets on a Dashboard or Analyse lay
 1. export the layout
 2. open with your favourite editor
 3. replace as follows
-..* Search: "selectedOption":"Top" Replace: "selectedOption":"Bottom"
+* Search: "selectedOption":"Top" Replace: "selectedOption":"Bottom"
 4. Import and away you go (or else, use the LR-WebUI-Importer.ps1 script)
 
 
