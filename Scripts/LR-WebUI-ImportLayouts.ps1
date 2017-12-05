@@ -9,7 +9,7 @@ Bulk Import Dashboard or Analyse Layouts into the LogRhythm WebUI.
 This script batch imports LogRhythm WebUI Analyse & Dashboard layouts from a user specified directory by taking the JSON format layout and inserting directly into the SQL EMDB database. 
 This has been developed and tested against LogRhythm 7.3.x, and at best should be considered experimental, and not officially supported by LogRhythm.
 
-Do not use on production systems.  Do not use without an up to date EMDB backup.  You have been warned!
+Do not use on production systems.  Do not use without an up to date EMDB backup.  In fact, the more I think about it you probably just shouldn't every use it.  You have been warned!
 
 .EXAMPLE
 ./LR-WebUI-ImportLayouts -path "c:\temp\path\to\my\layouts\"
