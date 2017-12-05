@@ -57,10 +57,10 @@ The WebUI has a display limit of 22 characters at this time, no filtering, and n
 
 *Source:Dashboard (D|A-T|B)*
 
-Source = Brief Log Source Name, e.g., Apache
-Dashboard = What the Dashboard or Analyse is for, e.g., Access Logs
-D|A = Dashboard or Analyse (this is kinda obvious!)
-T|B = Top or Bottom (Optional, if you don't use Top or Bottom views then omit)
+* Source = Brief Log Source Name, e.g., Apache
+* Dashboard = What the Dashboard or Analyse is for, e.g., Access Logs
+* D|A = Dashboard or Analyse (this is kinda obvious!)
+* T|B = Top or Bottom (Optional, if you don't use Top or Bottom views then omit)
 
 The end result for Apache Access logs would be as follows:
 
