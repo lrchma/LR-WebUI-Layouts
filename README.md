@@ -27,7 +27,8 @@ Provides time based comparison between metadata fields showing the last 1 hour v
 * Top User (Impacted)
 
 ### _1. Default (Top & Bottom)
-![Top & Bottom Events] (https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20Default%20Top%20Events.png?raw=true)
+![Top and Bottom Events] (https://github.com/lrchma/WebUI-Layouts/blob/master/Dashboard/_1%20Default%20Top%20Events.png?raw=true)
+
 Provides Top 10 metadata fields view.
 * Top Classification
 * Top Common Event
